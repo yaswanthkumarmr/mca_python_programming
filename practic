@@ -1,0 +1,21 @@
+name = input("Enter your name: ")
+print("Hello,", name)
+city = input("Enter your city: ")
+print("You are from", city)
+age = int(input("Enter your age: "))
+print("You are", age, "years old.")
+rate = float(input("Enter your rate: "))
+print("Your rate is", rate)
+
+
+print("Welcome to Python!")
+print("Sum:", 5 + 3)
+print("Hello", "World", "!")
+name = "Alice"
+print("Name:", name)
+name, age, city = "Alice", 22, "New York"
+print("Name:", name, "Age:", age, "City:", city)
+
+
+print("A", "B", sep="-")  # Output: A-B
+print("Hello", end="!")   # Output: Hello!
